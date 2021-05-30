@@ -1,4 +1,4 @@
-export const animationConfig = { ease: "easeOut", duration: 0.2 };
+export const animationConfig = { ease: "easeOut", duration: 0.3 };
 
 export const buttonRestVariant = {
     rest: {
@@ -16,6 +16,16 @@ export const buttonHoverVariant = {
     hover: {
         height: "auto",
     },
+};
+
+export const typoRestVariant = {
+    rest: { height: "auto", opacity: 1 },
+    hover: { height: 0, opacity: 0 },
+};
+
+export const typoHoverVariant = {
+    rest: { height: 0 },
+    hover: { height: "auto" },
 };
 
 export const appbarLogoVariant = {

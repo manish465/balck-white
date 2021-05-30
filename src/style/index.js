@@ -65,3 +65,24 @@ export const ButtonWrapper = styled(motion.div)`
         padding: 0 1rem;
     }
 `;
+export const JumbotronWrapper = styled.div`
+    margin: 2rem 8rem;
+`;
+export const MotionTypoWrapper = styled(motion.div)`
+    padding: 1.2rem 0;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+`;
+export const TitleRest = styled(motion.h1)`
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+`;
+export const TitleHover = styled(motion.h1)`
+    margin: 0;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 100;
+    height: 0;
+`;
