@@ -33,11 +33,17 @@ export const AppbarLogo = styled(motion.h1)`
     font-weight: bolder;
     cursor: pointer;
     letter-spacing: 1.2rem;
+    @media (max-width: 960px) {
+        font-size: 1.2rem;
+    }
 `;
 export const AppbarLinks = styled.ul`
     display: flex;
     flex-direction: row;
     list-style: none;
+    @media (max-width: 960px) {
+        display: none;
+    }
 `;
 export const AppbarLink = styled.li`
     font-size: 0.8rem;
@@ -64,9 +70,15 @@ export const ButtonWrapper = styled(motion.div)`
         height: 0;
         padding: 0 1rem;
     }
+    @media (max-width: 960px) {
+        font-size: 1rem;
+    }
 `;
 export const JumbotronWrapper = styled.div`
     margin: 2rem 8rem;
+    @media (max-width: 960px) {
+        margin: 9rem 5rem;
+    }
 `;
 export const MotionTypoWrapper = styled(motion.div)`
     padding: 1.2rem 0;
@@ -78,6 +90,9 @@ export const TitleRest = styled(motion.h1)`
     margin: 0;
     font-size: 4rem;
     font-weight: bold;
+    @media (max-width: 960px) {
+        font-size: 1.2rem;
+    }
 `;
 export const TitleHover = styled(motion.h1)`
     margin: 0;
@@ -85,4 +100,15 @@ export const TitleHover = styled(motion.h1)`
     font-style: italic;
     font-weight: 100;
     height: 0;
+    @media (max-width: 960px) {
+        font-size: 1.2rem;
+    }
+`;
+export const BackgroundElementWrapper = styled.video`
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 `;

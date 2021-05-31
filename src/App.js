@@ -1,8 +1,9 @@
-import { Appbar, Jumbotron } from "./componets";
+import { Appbar, BackgroundElement, Jumbotron } from "./componets";
 
 const App = () => {
     return (
         <>
+            <BackgroundElement />
             <Appbar />
             <Jumbotron />
         </>
