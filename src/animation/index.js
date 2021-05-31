@@ -24,8 +24,8 @@ export const typoRestVariant = {
 };
 
 export const typoHoverVariant = {
-    rest: { height: 0 },
-    hover: { height: "auto" },
+    rest: { height: 0, opacity: 0 },
+    hover: { height: "auto", opacity: 1 },
 };
 
 export const appbarLogoVariant = {

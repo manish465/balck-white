@@ -9,7 +9,7 @@ import {
 
 const Button = ({ children }) => {
     return (
-        <ButtonWrapper initial='rest' whileHover='hover'>
+        <ButtonWrapper initial='rest' whileHover='hover' animate='rest'>
             <motion.div
                 className='rest'
                 variants={buttonRestVariant}
